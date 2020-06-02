@@ -3,4 +3,4 @@ project for my isat 252 class
 
 my first python class today.
 
-3rd day 
+from jupyter notebook
