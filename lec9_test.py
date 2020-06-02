@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>isat252/lec8.py at 24a6018f6b7339b1bc070fe7f204c84a020961cb · xbwei/isat252</title>
+  <title>isat252/lec9_test.py at 24a6018f6b7339b1bc070fe7f204c84a020961cb · xbwei/isat252</title>
     <meta name="description" content="project for my isat 252 class. Contribute to xbwei/isat252 development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -38,10 +38,10 @@
     <meta property="og:image" content="https://avatars2.githubusercontent.com/u/3614556?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="xbwei/isat252" /><meta property="og:url" content="https://github.com/xbwei/isat252" /><meta property="og:description" content="project for my isat 252 class. Contribute to xbwei/isat252 development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTM2MzE0NzI3OjFmMmFmZTkxNjQxNzQ3NDJiZDdmMzhiZWY4MTA0Y2NiMjZkMjM3YmJkMDBiZTdmMTU4MDZkMzM5M2EyZDQzZTU=--8a734bf283b2d4eb00c70b39013515bebddb9ad0">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTM2MzE0NzI3OjYxNjQ3ZTY5Yjk1MjNlYjRmOTM2NTg2YjQ0OWI0ZjViNTQ3NDYwODBmNmUzMTMwYzE3OTM4Nzc3ZTRjYmE0M2M=--bb4294eb9f3c160744efc81f19f9fe0dc6a1d00a">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="D1D3:4DAE:901E4:F486E:5ED682BB" data-pjax-transient="true" /><meta name="html-safe-nonce" content="6101610666b7d73ae799fb600312bc774e66d1a8" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS94YndlaS9pc2F0MjUyL3RyZWUvMjRhNjAxOGY2YjczMzliMWJjMDcwZmU3ZjIwNGM4NGEwMjA5NjFjYiIsInJlcXVlc3RfaWQiOiJEMUQzOjREQUU6OTAxRTQ6RjQ4NkU6NUVENjgyQkIiLCJ2aXNpdG9yX2lkIjoiMzQ4MTMzMTM5NDUyMTA0NTMyMiIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="1cf9db58087fa47643b12a9978f9c71cb77651f8b3e97c1b28ad1f00c65f2758" data-pjax-transient="true" />
+  <meta name="request-id" content="D1D3:4DAE:8EE8F:F28A4:5ED6827A" data-pjax-transient="true" /><meta name="html-safe-nonce" content="6101610666b7d73ae799fb600312bc774e66d1a8" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS94YndlaS9pc2F0MjUyL3RyZWUvMjRhNjAxOGY2YjczMzliMWJjMDcwZmU3ZjIwNGM4NGEwMjA5NjFjYiIsInJlcXVlc3RfaWQiOiJEMUQzOjREQUU6OEVFOEY6RjI4QTQ6NUVENjgyN0EiLCJ2aXNpdG9yX2lkIjoiMzQ4MTMzMTM5NDUyMTA0NTMyMiIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="7af6b6a89dd502844d4d0ca921e62499ead8335db36308d60043260ada206c53" data-pjax-transient="true" />
 
 
 
@@ -78,7 +78,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="YzdiM2ZkNGM2YTFiMWI5YjU3MzU1MjdiMTFhMWUyYmU3NzFkYjY3M2EyNmM3MzliYzY4NWQzMTg0ZGQzMmQxYnx7InJlbW90ZV9hZGRyZXNzIjoiNjcuMTcyLjIwMy41NiIsInJlcXVlc3RfaWQiOiJEMUQzOjREQUU6OTAxRTQ6RjQ4NkU6NUVENjgyQkIiLCJ0aW1lc3RhbXAiOjE1OTExMTY0NzksImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="ZjhiMmI0MjVjMTYzZjM2NTA5MzQzNWMzZTM2MTRlYzE5NWU0OWVmNjVhNjc1NjRlMjNjMDJjY2E1OWYyZWE3Y3x7InJlbW90ZV9hZGRyZXNzIjoiNjcuMTcyLjIwMy41NiIsInJlcXVlc3RfaWQiOiJEMUQzOjREQUU6OEVFOEY6RjI4QTQ6NUVENjgyN0EiLCJ0aW1lc3RhbXAiOjE1OTExMTY0MTMsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,PAGE_STALE_CHECK,JS_CHUNKING">
 
@@ -92,7 +92,7 @@
   <meta name="octolytics-dimension-user_id" content="3614556" /><meta name="octolytics-dimension-user_login" content="xbwei" /><meta name="octolytics-dimension-repository_id" content="264965442" /><meta name="octolytics-dimension-repository_nwo" content="xbwei/isat252" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="264965442" /><meta name="octolytics-dimension-repository_network_root_nwo" content="xbwei/isat252" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="true" />
 
 
-    <link rel="canonical" href="https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -166,7 +166,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="Orr9bN40vvUene90X8Ix+BsJ4AYNaKDTSFaI6HHDEJofoGD6IIlW9iU/nizb1Xit8XNJs9BsZ/mhftHw1/Hxxg==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="ZTPYNssLh2OCa28t6JVw+6vgwJg8a3H7G+sDgTuR8cJAKUWgNbZvYLnJHnVsgjmuQZppLeFvttHyw1qZnaMQng==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -317,7 +317,7 @@
       <img class="avatar avatar-user" src="https://avatars1.githubusercontent.com/u/3614556?s=40&amp;v=4" width="20" height="20" alt="@xbwei" />
       xbwei
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="BvI4RpZqis7LF+pInTEekFAWxUCCfyF+iyX8AIfrsE/WK6h1MR3gZSxP5rBYVibKWh+o1yN2TERWlQwF6sinGg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="vPb2MCWp8Pb5VtMF8cMQgSeNGdV2G/ERu3AWHhu7WCdsL2YDgt6aXR4O3/00pCjbLYR0QtcSnCtmwOYbdphPcg==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-3 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 2.75C2 1.7835 2.7835 1 3.75 1H6.25C6.66421 1 7 1.33579 7 1.75C7 2.16421 6.66421 2.5 6.25 2.5H3.75C3.61193 2.5 3.5 2.61193 3.5 2.75V13.25C3.5 13.3881 3.61193 13.5 3.75 13.5H6.25C6.66421 13.5 7 13.8358 7 14.25C7 14.6642 6.66421 15 6.25 15H3.75C2.7835 15 2 14.2165 2 13.25V2.75ZM12.4393 7.25L6.75002 7.25C6.33581 7.25 6.00002 7.58579 6.00002 8C6.00002 8.41422 6.33581 8.75 6.75002 8.75L12.4393 8.75L10.4697 10.7197C10.1768 11.0126 10.1768 11.4874 10.4697 11.7803C10.7626 12.0732 11.2374 12.0732 11.5303 11.7803L14.7803 8.53033C15.0732 8.23744 15.0732 7.76256 14.7803 7.46967L11.5303 4.21967C11.2374 3.92678 10.7626 3.92678 10.4697 4.21967C10.1768 4.51256 10.1768 4.98744 10.4697 5.28033L12.4393 7.25Z"></path></svg>
         Sign out
@@ -415,7 +415,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:3614556,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:3614556,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py&quot;}}" data-hydro-click-hmac="da14a7e1cce5b45f1982302d8352b14048860eea811ac81b72a928790617bdef">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:3614556,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:3614556,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py&quot;}}" data-hydro-click-hmac="a8fe88f22e33c1d617c3204bf57a735904ce7fd0eabca3808b80da407d7974ad">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -442,7 +442,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="4BZ8HniIK1IgnJCPBdabVJ7Qu0RmWRkK3043W4MtoVC8RvkbMq9iaf6vDUP/HF+EgdRIikw1LZ7a8VP8jDGGMA==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="M/fg5M8oRD0EwATiWOxo+1/NYnu11QrCxK7b7/RiQJVvp2XhhQ8NBtrzmS6iJqwrQMmRtZ+5PlbBEb9I+35n9Q==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.72 3.72C3.86062 3.57955 4.05125 3.50066 4.25 3.50066C4.44875 3.50066 4.63937 3.57955 4.78 3.72L8 6.94L11.22 3.72C11.2887 3.64631 11.3715 3.58721 11.4635 3.54622C11.5555 3.50523 11.6548 3.48319 11.7555 3.48141C11.8562 3.47963 11.9562 3.49816 12.0496 3.53588C12.143 3.5736 12.2278 3.62974 12.299 3.70096C12.3703 3.77218 12.4264 3.85702 12.4641 3.9504C12.5018 4.04379 12.5204 4.14382 12.5186 4.24452C12.5168 4.34523 12.4948 4.44454 12.4538 4.53654C12.4128 4.62854 12.3537 4.71134 12.28 4.78L9.06 8L12.28 11.22C12.3537 11.2887 12.4128 11.3715 12.4538 11.4635C12.4948 11.5555 12.5168 11.6548 12.5186 11.7555C12.5204 11.8562 12.5018 11.9562 12.4641 12.0496C12.4264 12.143 12.3703 12.2278 12.299 12.299C12.2278 12.3703 12.143 12.4264 12.0496 12.4641C11.9562 12.5018 11.8562 12.5204 11.7555 12.5186C11.6548 12.5168 11.5555 12.4948 11.4635 12.4538C11.3715 12.4128 11.2887 12.3537 11.22 12.28L8 9.06L4.78 12.28C4.63782 12.4125 4.44977 12.4846 4.25547 12.4812C4.06117 12.4777 3.87579 12.399 3.73837 12.2616C3.60096 12.1242 3.52225 11.9388 3.51882 11.7445C3.51539 11.5502 3.58752 11.3622 3.72 11.22L6.94 8L3.72 4.78C3.57955 4.63938 3.50066 4.44875 3.50066 4.25C3.50066 4.05125 3.57955 3.86063 3.72 3.72Z"></path></svg>
@@ -560,17 +560,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-06-02T13:17:59-04:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-06-02T13:16:53-04:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-06-02T13:47:59-04:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-06-02T13:46:53-04:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-06-02T16:47:59-04:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-06-02T16:46:53-04:00">
             in 4 hours
           </button>
         </li>
@@ -627,10 +627,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/xbwei/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py&quot;,&quot;user_id&quot;:3614556}}"
-    data-feature-preview-close-hmac="9ed791eef2b2351d1168895ea713a6891827a91b1025a8715a87b144fad3c597"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py&quot;,&quot;user_id&quot;:3614556}}"
-    data-hydro-click-hmac="85b915a294b3acf2605158eaab81cb5669b285ff1bc03746ce960bd828fd026d"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py&quot;,&quot;user_id&quot;:3614556}}"
+    data-feature-preview-close-hmac="b9a070897d17640c69e9033041a5d3e2d7e4a5588b80280b20127811724f7ffe"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py&quot;,&quot;user_id&quot;:3614556}}"
+    data-hydro-click-hmac="60a99a8578c2c87a00b2303e8d23745ecc7125b033e2025e5be88460f23cdbbe"
   >
     Feature preview
   </button>
@@ -639,12 +639,12 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DPRm9INnXLI3BR90pEP0xAL4gZSgnC4GiaoedDTqLSfcLfbHJBA2GdBdE4xhJMyeCPHsAwGVQzxUGu5xWck6cg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="LpEZla5ztXcKlGkdtpDmBIYt0lQLb/e9IRQGoXrsUdX+SImmCQTf3O3MZeVz995ejCS/w6pmmof8pPakF89GgA==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_5713" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1591116479077" class="form-control" /><input type="hidden" name="timestamp_secret" value="77ac9ec74fb454339162b64c9afe221cb2454117773306820b54a2916cadcf31" class="form-control" />
+      <input type="text" name="required_field_3fcd" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1591116413274" class="form-control" /><input type="hidden" name="timestamp_secret" value="ef82d092859aae07d93d493b6604dc0120e90b67bd9def68589ae71610624e76" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -732,10 +732,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="WacQzI0O+1N7p193YerHVwghBep6lISzFHp5N0tjnHA0xqFMjcVYWlbgCUNfH1e9nuR35D7Akld4B9KckxRJwg==" />      <input type="hidden" name="repository_id" value="264965442">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="h8gh63YjWJ4GGTkdhRzL60WiBjGWGzNUPwHd3BCZD2jqqZBrduj7lytebym76VsB02d0P9JPJbBTfHZ3yO7a2g==" />      <input type="hidden" name="repository_id" value="264965442">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:264965442,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py&quot;,&quot;user_id&quot;:3614556}}" data-hydro-click-hmac="437941df0bd3073c9e133311e38a2e291879cbdd01455a6ebcdafe4db6f0afac" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:264965442,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py&quot;,&quot;user_id&quot;:3614556}}" data-hydro-click-hmac="84e9d4de9851f04cadbfac8b835c2c63eaba57c971e8eb31a2d9af5fbc6b711b" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.67884 7.93165C2.09143 7.31094 2.9206 6.18152 4.0447 5.21477C5.17567 4.2421 6.52738 3.5 8.00001 3.5C9.47264 3.5 10.8244 4.2421 11.9553 5.21477C13.0794 6.18152 13.9086 7.31094 14.3212 7.93165C14.35 7.975 14.35 8.025 14.3212 8.06835C13.9086 8.68906 13.0794 9.81848 11.9553 10.7852C10.8244 11.7579 9.47264 12.5 8.00001 12.5C6.52738 12.5 5.17567 11.7579 4.0447 10.7852C2.9206 9.81848 2.09143 8.68906 1.67884 8.06835C1.65002 8.025 1.65002 7.975 1.67884 7.93165ZM8.00001 2C6.01865 2 4.32919 2.99167 3.06662 4.07751C1.79718 5.16926 0.880454 6.42307 0.429635 7.10129C0.0664231 7.64771 0.0664245 8.35229 0.429635 8.89871C0.880455 9.57693 1.79718 10.8307 3.06662 11.9225C4.32919 13.0083 6.01865 14 8.00001 14C9.98137 14 11.6708 13.0083 12.9334 11.9225C14.2028 10.8307 15.1196 9.57693 15.5704 8.89871C15.9336 8.35229 15.9336 7.64771 15.5704 7.10129C15.1196 6.42307 14.2028 5.16926 12.9334 4.07751C11.6708 2.99167 9.98137 2 8.00001 2ZM8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z"></path></svg>
               Unwatch
           </span>
@@ -806,9 +806,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/xbwei/isat252/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="YydjQ1rOaDoy1rFMRXqa4UYf2/vUeWe46/Fyj94nKeGMwsNaqCNHa9r41xKM22hXTgy+mwEXvcKADz8ViFPWnw==" />
+    <form class="starred js-social-form" action="/xbwei/isat252/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="A7OFYPxZI7bFkm2e8cR3NYh64ljsfRzUpVuLp8Hp3nTsViV5DrQM5y28C8A4ZYWDgGmHODkTxq7OpcY9l50hCg==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar xbwei/isat252" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:264965442,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py&quot;,&quot;user_id&quot;:3614556}}" data-hydro-click-hmac="939a85c97a1658b490652eac67b23388686c25f0fb0baf666c3a4de04bb9004a" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star-fill" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0.25C8.14001 0.24991 8.27725 0.289014 8.39619 0.362887C8.51513 0.43676 8.61102 0.542452 8.673 0.668L10.555 4.483L14.765 5.095C14.9035 5.11511 15.0335 5.17355 15.1405 5.26372C15.2475 5.35388 15.3271 5.47218 15.3704 5.60523C15.4137 5.73829 15.4189 5.8808 15.3854 6.01665C15.3519 6.1525 15.2811 6.27628 15.181 6.374L12.135 9.344L12.854 13.536C12.8777 13.6739 12.8624 13.8157 12.8097 13.9454C12.757 14.0751 12.6691 14.1874 12.5559 14.2697C12.4427 14.352 12.3087 14.401 12.1691 14.4111C12.0295 14.4212 11.8899 14.3921 11.766 14.327L8 12.347L4.234 14.327C4.11018 14.392 3.97066 14.4211 3.83119 14.411C3.69171 14.4009 3.55784 14.352 3.44468 14.2699C3.33152 14.1877 3.24359 14.0755 3.19081 13.946C3.13803 13.8165 3.12251 13.6749 3.146 13.537L3.866 9.343L0.817997 6.374C0.717563 6.27632 0.646496 6.15247 0.612848 6.01647C0.579201 5.88047 0.584318 5.73777 0.627621 5.60453C0.670924 5.47129 0.75068 5.35284 0.857852 5.26261C0.965025 5.17238 1.09533 5.11397 1.234 5.094L5.444 4.483L7.327 0.668C7.38898 0.542452 7.48486 0.43676 7.6038 0.362887C7.72274 0.289014 7.85998 0.24991 8 0.25Z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar xbwei/isat252" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:264965442,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py&quot;,&quot;user_id&quot;:3614556}}" data-hydro-click-hmac="33d3527775067b40a65e8f0fe4758f5cd5bb9f7bd0c900b062adf0da714a0b34" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star-fill" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0.25C8.14001 0.24991 8.27725 0.289014 8.39619 0.362887C8.51513 0.43676 8.61102 0.542452 8.673 0.668L10.555 4.483L14.765 5.095C14.9035 5.11511 15.0335 5.17355 15.1405 5.26372C15.2475 5.35388 15.3271 5.47218 15.3704 5.60523C15.4137 5.73829 15.4189 5.8808 15.3854 6.01665C15.3519 6.1525 15.2811 6.27628 15.181 6.374L12.135 9.344L12.854 13.536C12.8777 13.6739 12.8624 13.8157 12.8097 13.9454C12.757 14.0751 12.6691 14.1874 12.5559 14.2697C12.4427 14.352 12.3087 14.401 12.1691 14.4111C12.0295 14.4212 11.8899 14.3921 11.766 14.327L8 12.347L4.234 14.327C4.11018 14.392 3.97066 14.4211 3.83119 14.411C3.69171 14.4009 3.55784 14.352 3.44468 14.2699C3.33152 14.1877 3.24359 14.0755 3.19081 13.946C3.13803 13.8165 3.12251 13.6749 3.146 13.537L3.866 9.343L0.817997 6.374C0.717563 6.27632 0.646496 6.15247 0.612848 6.01647C0.579201 5.88047 0.584318 5.73777 0.627621 5.60453C0.670924 5.47129 0.75068 5.35284 0.857852 5.26261C0.965025 5.17238 1.09533 5.11397 1.234 5.094L5.444 4.483L7.327 0.668C7.38898 0.542452 7.48486 0.43676 7.6038 0.362887C7.72274 0.289014 7.85998 0.24991 8 0.25Z"></path></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/xbwei/isat252/stargazers"
@@ -816,9 +816,9 @@
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/xbwei/isat252/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ftwUbReVMG43NxSXErhobbUOmKXLwamxGyYAZcwSIhO+Uk7EQ1ZXvkkZbmdLCSWB3RGLCTbT+TstTeqBYzaNTQ==" />
+    <form class="unstarred js-social-form" action="/xbwei/isat252/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="0m6LW2NkSUBOuYKOyj4gmtnYhDC6VQkoxGYn7icm3+QS4NHyN6cukDCX+H6Tj212sceXnEdHWaLyDc0KiAJwug==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star xbwei/isat252" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:264965442,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py&quot;,&quot;user_id&quot;:3614556}}" data-hydro-click-hmac="feacc0066b6bd44b50342bf75bf064eb79fd86631c9b8155e08cbfdd6c173427" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.00001 0.25C8.14003 0.24991 8.27727 0.289014 8.39621 0.362887C8.51515 0.43676 8.61103 0.542452 8.67301 0.668L10.555 4.483L14.765 5.095C14.9035 5.11511 15.0336 5.17355 15.1405 5.26372C15.2475 5.35388 15.3272 5.47218 15.3704 5.60523C15.4137 5.73829 15.4189 5.8808 15.3854 6.01665C15.352 6.1525 15.2812 6.27628 15.181 6.374L12.135 9.344L12.854 13.536C12.8777 13.6739 12.8624 13.8157 12.8097 13.9454C12.757 14.0751 12.6691 14.1874 12.5559 14.2697C12.4427 14.352 12.3087 14.401 12.1691 14.4111C12.0295 14.4212 11.8899 14.3921 11.766 14.327L8.00001 12.347L4.23401 14.327C4.1102 14.392 3.97068 14.4211 3.8312 14.411C3.69173 14.4009 3.55785 14.352 3.44469 14.2699C3.33154 14.1877 3.2436 14.0755 3.19083 13.946C3.13805 13.8165 3.12252 13.6749 3.14601 13.537L3.86601 9.343L0.818012 6.374C0.717578 6.27632 0.646511 6.15247 0.612864 6.01647C0.579216 5.88047 0.584334 5.73777 0.627636 5.60453C0.670939 5.47129 0.750695 5.35284 0.857868 5.26261C0.96504 5.17238 1.09534 5.11397 1.23401 5.094L5.44401 4.483L7.32701 0.668C7.38899 0.542452 7.48488 0.43676 7.60382 0.362887C7.72276 0.289014 7.86 0.24991 8.00001 0.25ZM8.00001 2.695L6.61501 5.5C6.56123 5.6089 6.4818 5.70311 6.38356 5.77453C6.28531 5.84595 6.17119 5.89244 6.05101 5.91L2.95401 6.36L5.19401 8.544C5.28116 8.62886 5.34637 8.73365 5.384 8.84933C5.42163 8.96501 5.43056 9.0881 5.41001 9.208L4.88201 12.292L7.65101 10.836C7.75864 10.7794 7.87842 10.7499 8.00001 10.7499C8.12161 10.7499 8.24138 10.7794 8.34901 10.836L11.119 12.292L10.589 9.208C10.5685 9.0881 10.5774 8.96501 10.615 8.84933C10.6527 8.73365 10.7179 8.62886 10.805 8.544L13.045 6.361L9.94901 5.911C9.82883 5.89344 9.71471 5.84695 9.61647 5.77553C9.51822 5.70411 9.4388 5.6099 9.38501 5.501L8.00001 2.694V2.695Z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star xbwei/isat252" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:264965442,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py&quot;,&quot;user_id&quot;:3614556}}" data-hydro-click-hmac="0972a7985ea8a659b026b11a09ef322972e242432a2c15dc29f56eee5ea82652" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.00001 0.25C8.14003 0.24991 8.27727 0.289014 8.39621 0.362887C8.51515 0.43676 8.61103 0.542452 8.67301 0.668L10.555 4.483L14.765 5.095C14.9035 5.11511 15.0336 5.17355 15.1405 5.26372C15.2475 5.35388 15.3272 5.47218 15.3704 5.60523C15.4137 5.73829 15.4189 5.8808 15.3854 6.01665C15.352 6.1525 15.2812 6.27628 15.181 6.374L12.135 9.344L12.854 13.536C12.8777 13.6739 12.8624 13.8157 12.8097 13.9454C12.757 14.0751 12.6691 14.1874 12.5559 14.2697C12.4427 14.352 12.3087 14.401 12.1691 14.4111C12.0295 14.4212 11.8899 14.3921 11.766 14.327L8.00001 12.347L4.23401 14.327C4.1102 14.392 3.97068 14.4211 3.8312 14.411C3.69173 14.4009 3.55785 14.352 3.44469 14.2699C3.33154 14.1877 3.2436 14.0755 3.19083 13.946C3.13805 13.8165 3.12252 13.6749 3.14601 13.537L3.86601 9.343L0.818012 6.374C0.717578 6.27632 0.646511 6.15247 0.612864 6.01647C0.579216 5.88047 0.584334 5.73777 0.627636 5.60453C0.670939 5.47129 0.750695 5.35284 0.857868 5.26261C0.96504 5.17238 1.09534 5.11397 1.23401 5.094L5.44401 4.483L7.32701 0.668C7.38899 0.542452 7.48488 0.43676 7.60382 0.362887C7.72276 0.289014 7.86 0.24991 8.00001 0.25ZM8.00001 2.695L6.61501 5.5C6.56123 5.6089 6.4818 5.70311 6.38356 5.77453C6.28531 5.84595 6.17119 5.89244 6.05101 5.91L2.95401 6.36L5.19401 8.544C5.28116 8.62886 5.34637 8.73365 5.384 8.84933C5.42163 8.96501 5.43056 9.0881 5.41001 9.208L4.88201 12.292L7.65101 10.836C7.75864 10.7794 7.87842 10.7499 8.00001 10.7499C8.12161 10.7499 8.24138 10.7794 8.34901 10.836L11.119 12.292L10.589 9.208C10.5685 9.0881 10.5774 8.96501 10.615 8.84933C10.6527 8.73365 10.7179 8.62886 10.805 8.544L13.045 6.361L9.94901 5.911C9.82883 5.89344 9.71471 5.84695 9.61647 5.77553C9.51822 5.70411 9.4388 5.6099 9.38501 5.501L8.00001 2.694V2.695Z"></path></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/xbwei/isat252/stargazers"
@@ -992,9 +992,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:c46a6197b7e0f0bded63f83486d1f6cc -->
+    <!-- blob contrib key: blob_contributors:v22:61ca7e253b268e42ce818118bf6ec93d -->
     
 
     <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
@@ -1009,7 +1009,7 @@
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/xbwei/isat252/refs/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/xbwei/isat252/refs/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
@@ -1025,15 +1025,15 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="lec8.py" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="lec9_test.py" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" rel="nofollow" href="/xbwei/isat252/tree/24a6018f6b7339b1bc070fe7f204c84a020961cb"><span>isat252</span></a></span></span><span class="separator">/</span><strong class="final-path">lec8.py</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" rel="nofollow" href="/xbwei/isat252/tree/24a6018f6b7339b1bc070fe7f204c84a020961cb"><span>isat252</span></a></span></span><span class="separator">/</span><strong class="final-path">lec9_test.py</strong>
           <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
-  <summary class="btn-link link-gray css-truncate" aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:264965442,&quot;ref&quot;:&quot;24a6018f6b7339b1bc070fe7f204c84a020961cb&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py&quot;,&quot;user_id&quot;:3614556}}" data-hydro-click-hmac="ac2715f84a8d67ffdd0b597f2c98d54ca20cb23b61eb1ed7430a43025e7e7988">
+  <summary class="btn-link link-gray css-truncate" aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:264965442,&quot;ref&quot;:&quot;24a6018f6b7339b1bc070fe7f204c84a020961cb&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py&quot;,&quot;user_id&quot;:3614556}}" data-hydro-click-hmac="27be871bff8e3e7ae49b8a847ac9b0c016b662605663135b93a9802464005183">
       <svg class="octicon octicon-code" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.71967 3.21967C5.01256 2.92678 5.48744 2.92678 5.78033 3.21967C6.07322 3.51256 6.07322 3.98744 5.78033 4.28033L2.06066 8L5.78033 11.7197C6.07322 12.0126 6.07322 12.4874 5.78033 12.7803C5.48744 13.0732 5.01256 13.0732 4.71967 12.7803L0.46967 8.53033C0.176777 8.23744 0.176777 7.76256 0.46967 7.46967L4.71967 3.21967ZM11.2803 3.21967C10.9874 2.92678 10.5126 2.92678 10.2197 3.21967C9.92678 3.51256 9.92678 3.98744 10.2197 4.28033L13.9393 8L10.2197 11.7197C9.92678 12.0126 9.92678 12.4874 10.2197 12.7803C10.5126 13.0732 10.9874 13.0732 11.2803 12.7803L15.5303 8.53033C15.8232 8.23744 15.8232 7.76256 15.5303 7.46967L11.2803 3.21967Z"></path></svg>
     <span data-menu-button>Jump to</span>
     <span class="dropdown-caret"></span>
@@ -1074,7 +1074,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="lec8.py" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="lec9_test.py" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -1082,7 +1082,7 @@
 
 
 
-    <include-fragment src="/xbwei/isat252/contributors/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py" class="Box Box--condensed commit-loader">
+    <include-fragment src="/xbwei/isat252/contributors/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -1103,17 +1103,17 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      67 lines (46 sloc)
+      16 lines (11 sloc)
       <span class="file-info-divider"></span>
-    926 Bytes
+    172 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/xbwei/isat252/raw/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/xbwei/isat252/blame/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/xbwei/isat252/commits/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/xbwei/isat252/raw/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/xbwei/isat252/blame/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/xbwei/isat252/commits/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py">History</a>
     </div>
 
 
@@ -1149,11 +1149,11 @@
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-s>lec 8 </span></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-s>lec 9</span></td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-s>functions</span></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-s>test import statement</span></td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
@@ -1161,269 +1161,56 @@
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-c># def my_function(a,b=0):</span></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-c># import lec8</span></td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">    </td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-c>#     print(&#39;a is &#39;,a)</span></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-c># print(lec8.cal_f(5))</span></td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class=pl-c>#     print(&#39;b is &#39;,b)</span></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">    </td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-c># import lec9</span></td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class=pl-c>#     return a+b</span></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class=pl-c># my_car = lec9.car(&#39;toyato&#39;)</span></td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">    </td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class=pl-c># print(my_car.report())</span></td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class=pl-c># print(my_function(a=1))</span></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>numpy</span></td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class=pl-c>#ex1</span></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>calculate_abs</span>(<span class=pl-s1>a</span>):</td>
-      </tr>
-      <tr>
-        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&#39;&#39;&#39;</span></td>
-      </tr>
-      <tr>
-        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class=pl-s>    return the abs value of imput numbers</span></td>
-      </tr>
-      <tr>
-        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class=pl-s>    &#39;&#39;&#39;</span></td>
-      </tr>
-      <tr>
-        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">    </td>
-      </tr>
-      <tr>
-        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>if</span> <span class=pl-en>type</span>(<span class=pl-s1>a</span>) <span class=pl-c1>is</span> <span class=pl-s1>str</span>:</td>
-      </tr>
-      <tr>
-        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> (<span class=pl-s>&#39;wrong data type&#39;</span>)</td>
-      </tr>
-      <tr>
-        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">        </td>
-      </tr>
-      <tr>
-        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>elif</span> <span class=pl-s1>a</span> <span class=pl-c1>&gt;=</span><span class=pl-c1>0</span>:</td>
-      </tr>
-      <tr>
-        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>a</span></td>
-      </tr>
-      <tr>
-        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>else</span>:</td>
-      </tr>
-      <tr>
-        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-c1>-</span><span class=pl-s1>a</span> </td>
-      </tr>
-      <tr>
-        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">    </td>
-      </tr>
-      <tr>
-        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class=pl-c># print(calculate_abs(&#39;a&#39;))</span></td>
-      </tr>
-      <tr>
-        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class=pl-c>#ex2</span></td>
-      </tr>
-      <tr>
-        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>cal_sigma</span>(<span class=pl-s1>m</span>,<span class=pl-s1>n</span>):</td>
-      </tr>
-      <tr>
-        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>result</span> <span class=pl-c1>=</span> <span class=pl-c1>0</span></td>
-      </tr>
-      <tr>
-        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-s1>i</span> <span class=pl-c1>in</span> <span class=pl-en>range</span>(<span class=pl-s1>n</span>,<span class=pl-s1>m</span><span class=pl-c1>+</span><span class=pl-c1>1</span>):</td>
-      </tr>
-      <tr>
-        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>result</span> <span class=pl-c1>=</span> <span class=pl-s1>result</span> <span class=pl-c1>+</span><span class=pl-s1>i</span> </td>
-      </tr>
-      <tr>
-        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> <span class=pl-s1>result</span></td>
-      </tr>
-      <tr>
-        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line"><span class=pl-c># print(cal_sigma(m=5,n=3))</span></td>
-      </tr>
-      <tr>
-        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>cal_pi</span>(<span class=pl-s1>m</span>,<span class=pl-s1>n</span>):</td>
-      </tr>
-      <tr>
-        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>result</span> <span class=pl-c1>=</span> <span class=pl-c1>1</span></td>
-      </tr>
-      <tr>
-        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-s1>i</span> <span class=pl-c1>in</span> <span class=pl-en>range</span>(<span class=pl-s1>n</span>,<span class=pl-s1>m</span><span class=pl-c1>+</span><span class=pl-c1>1</span>):</td>
-      </tr>
-      <tr>
-        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>result</span> <span class=pl-c1>=</span> <span class=pl-s1>result</span><span class=pl-c1>*</span><span class=pl-s1>i</span></td>
-      </tr>
-      <tr>
-        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line">        <span class=pl-c># print(&#39;i:&#39;,i)</span></td>
-      </tr>
-      <tr>
-        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">        <span class=pl-c># print(&#39;result:&#39;,result)</span></td>
-      </tr>
-      <tr>
-        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">    </td>
-      </tr>
-      <tr>
-        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> <span class=pl-s1>result</span></td>
-      </tr>
-      <tr>
-        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line"><span class=pl-c># print(cal_pi(5,3))</span></td>
-      </tr>
-      <tr>
-        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="LC55" class="blob-code blob-code-inner js-file-line"><span class=pl-c>#ex3</span></td>
-      </tr>
-      <tr>
-        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>cal_f</span>(<span class=pl-s1>m</span>):</td>
-      </tr>
-      <tr>
-        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>if</span> <span class=pl-s1>m</span> <span class=pl-c1>==</span><span class=pl-c1>0</span>:</td>
-      </tr>
-      <tr>
-        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-c1>1</span> </td>
-      </tr>
-      <tr>
-        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>else</span>:</td>
-      </tr>
-      <tr>
-        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>m</span> <span class=pl-c1>*</span> <span class=pl-en>cal_f</span>(<span class=pl-s1>m</span><span class=pl-c1>-</span><span class=pl-c1>1</span>)</td>
-      </tr>
-      <tr>
-        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line"><span class=pl-c># print(cal_f(3))</span></td>
-      </tr>
-      <tr>
-        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>cal_p</span>(<span class=pl-s1>m</span>,<span class=pl-s1>n</span>):</td>
-      </tr>
-      <tr>
-        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span>  <span class=pl-en>cal_f</span>(<span class=pl-s1>m</span>)<span class=pl-c1>/</span><span class=pl-en>cal_f</span>(<span class=pl-s1>m</span><span class=pl-c1>-</span><span class=pl-s1>n</span>)</td>
-      </tr>
-      <tr>
-        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code blob-code-inner js-file-line"><span class=pl-c># print(cal_p(5,3))</span></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class=pl-en>print</span>(<span class=pl-s1>numpy</span>)</td>
       </tr>
 </table>
 
@@ -1445,7 +1232,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/xbwei/isat252/blame/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/xbwei/isat252/blame/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/xbwei/isat252/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
@@ -1470,10 +1257,10 @@
      hidden
      data-tagsearch-url="/xbwei/isat252/find-symbols"
      data-tagsearch-ref="24a6018f6b7339b1bc070fe7f204c84a020961cb"
-     data-tagsearch-path="lec8.py"
+     data-tagsearch-path="lec9_test.py"
      data-tagsearch-lang="Python"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:264965442,&quot;ref&quot;:&quot;24a6018f6b7339b1bc070fe7f204c84a020961cb&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec8.py&quot;,&quot;user_id&quot;:3614556}}"
-     data-hydro-click-hmac="b203c05fecd373a0335e62a26192084d7ce86ce4b8c7799e72c8017eab602d6f">
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:264965442,&quot;ref&quot;:&quot;24a6018f6b7339b1bc070fe7f204c84a020961cb&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/xbwei/isat252/blob/24a6018f6b7339b1bc070fe7f204c84a020961cb/lec9_test.py&quot;,&quot;user_id&quot;:3614556}}"
+     data-hydro-click-hmac="2f2095925f113c09d0d0dcc5eb08f5476098786ea6d7d4abf1196ce78fd755a7">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large">
     <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
     </div>
